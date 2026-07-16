@@ -20,13 +20,16 @@ const Events = () => {
     alert("Google Takvim'e ekleniyor... (Demo)");
   };
 
+  // Sort all events from newest to oldest based on isoDate
+  const sortedEvents = [...events].sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
+
   // Get unique categories for filtering
-  const categories = ['Tümü', ...new Set(events.map(e => e.category))];
+  const categories = ['Tümü', ...new Set(sortedEvents.map(e => e.category))];
 
   // Filter events based on active category
   const filteredEvents = activeFilter === 'Tümü' 
-    ? events 
-    : events.filter(e => e.category === activeFilter);
+    ? sortedEvents 
+    : sortedEvents.filter(e => e.category === activeFilter);
 
   // Extract featured event (the first one)
   const featuredEvent = filteredEvents[0];
@@ -35,15 +38,15 @@ const Events = () => {
   return (
     <div className="bg-luxera-navy min-h-screen text-white pb-32">
       <SEO 
-        title={t('events.seo.title', 'Etkinlikler ve Haberler')}
+        title={t('events.seo.title', 'Etkinlikler')}
         description={t('events.seo.desc', 'Luxera Towers sosyal yaşam takvimi, müzik dinletileri, kitap günleri ve en güncel gelişmeler.')}
         canonical="https://luxeratowers.com/etkinlikler"
       />
 
       <PageHero
         overline={t('events.hero.overline', 'Gündem & Medya')}
-        title={t('events.hero.title1', 'Etkinlikler &')}
-        highlight={t('events.hero.title2', 'Haberler')}
+        title={t('events.hero.title1', '')}
+        highlight={t('events.hero.title2', 'Etkinlikler')}
         subtitle={t('events.hero.desc', 'Luxera Towers ekosistemindeki en güncel gelişmeler, özel kampanyalar ve size özel hazırlanan sosyal etkinlik takvimi.')}
         backgroundImage="/images/exterior/14_2025-12-18_02-46-35_78c2e7.webp"
       />
