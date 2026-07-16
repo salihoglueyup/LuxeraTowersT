@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Lock, User, FileText, Bell, ExternalLink, ShieldCheck, Mail, Phone } from 'lucide-react';
+import { Lock, User, Bell, ExternalLink, ShieldCheck, Mail, Phone, Car, Sparkles, Wrench, Shield, Dumbbell, Coffee } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { fadeUp, staggerContainer } from '../shared/utils/animations';
 import { boardMembers } from '../data/brands';
@@ -10,6 +11,15 @@ import SEO from '../shared/seo/SEO';
 
 const ResidentPortal = () => {
   const { t } = useTranslation();
+
+  const residentServices = [
+    { id: 'valet', title: 'Vale & Otopark', icon: <Car size={28} />, path: '/ayricaliklar/vale', img: '/images/exterior/7_2025-12-18_02-46-34_3b69d3.webp' },
+    { id: 'housekeeping', title: 'Housekeeping', icon: <Sparkles size={28} />, path: '/ayricaliklar/housekeeping', img: '/images/interior/d5_scene10_20240304_220213copy_2025-12-18_03-47-03_de61ba.webp' },
+    { id: 'security', title: '7/24 Güvenlik', icon: <Shield size={28} />, path: '/ayricaliklar/guvenlik', img: '/images/exterior/12_2025-12-18_02-46-35_4cee27.webp' },
+    { id: 'concierge', title: 'Concierge', icon: <Bell size={28} />, path: '/ayricaliklar/concierge', img: '/images/amenities/d5_scene16_20240303_015548copy_2025-12-18_03-46-29_fa58f6.webp' },
+    { id: 'fitness', title: 'Spa & Fitness', icon: <Dumbbell size={28} />, path: '/ayricaliklar/fitness', img: '/images/amenities/d5_scene21_20240303_011838copy_2025-12-18_03-46-29_26003e.webp' },
+    { id: 'lounge', title: 'Executive Lounge', icon: <Coffee size={28} />, path: '/ayricaliklar/lounge', img: '/images/amenities/d5_scene9_20240303_024623copy_2025-12-18_03-46-29_a8b134.webp' }
+  ];
 
   return (
     <div className="bg-luxera-navy min-h-screen text-white pb-32">
@@ -82,11 +92,58 @@ const ResidentPortal = () => {
               </div>
               
               <div className="mt-8 pt-6 border-t border-white/10 text-center">
-                <a href="/etkinlikler" className="text-gray-400 text-sm hover:text-white transition-colors">Tüm Duyuruları Gör →</a>
+                <Link to="/etkinlikler" className="text-gray-400 text-sm hover:text-white transition-colors">Tüm Duyuruları Gör →</Link>
               </div>
             </div>
           </div>
         </div>
+
+        {/* SİTE İÇİ HİZMETLER VE AYRICALIKLAR */}
+        <div className="mb-32">
+          <SectionHeader 
+            title={t('portal.services.title', 'Site İçi Hizmetler')}
+            subtitle={t('portal.services.subtitle', 'Yaşamınızı kolaylaştırmak için sunulan ayrıcalıklı hizmetler.')}
+            watermark="HİZMET"
+          />
+
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.1 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            {residentServices.map((service) => (
+              <Link to={service.path} key={service.id}>
+                <motion.div
+                  variants={fadeUp}
+                  className="group relative h-[250px] rounded-2xl overflow-hidden shadow-2xl"
+                >
+                  {/* Background Image */}
+                  <div className="absolute inset-0">
+                    <img 
+                      src={service.img} 
+                      alt={service.title}
+                      className="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="absolute inset-0 p-6 flex flex-col justify-end z-10">
+                    <div className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center text-luxera-gold mb-4 border border-white/20 group-hover:bg-luxera-gold group-hover:text-luxera-navy transition-colors duration-300 transform translate-y-4 group-hover:translate-y-0">
+                      {service.icon}
+                    </div>
+                    <h3 className="text-2xl font-serif text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      {service.title}
+                    </h3>
+                  </div>
+                </motion.div>
+              </Link>
+            ))}
+          </motion.div>
+        </div>
+
 
         {/* YÖNETİM KURULU */}
         <SectionHeader 
