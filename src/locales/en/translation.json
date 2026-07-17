@@ -33,7 +33,12 @@
     "lounge": "Lounge Area",
     "luxeraTv": "Luxera TV",
     "residence": "Residence",
-    "viewPlans": "View Plans"
+    "viewPlans": "View Plans",
+    "virtualTour": "Virtual Tour",
+    "offices": "Offices & Corporations",
+    "stores": "Stores & Brands",
+    "dining": "Dining & Cafes",
+    "residentPortal": "Resident Portal"
   },
   "hero": {
     "subtitle": "Sky Gardens in Basin Ekspres",
@@ -153,6 +158,46 @@
       "phone": "Please enter a valid phone number",
       "email": "Please enter a valid email address",
       "unitType": "Please select the unit type you are interested in"
+    },
+    "validation": {
+      "name": "Full name is required",
+      "phone": "Phone number is required",
+      "emailInvalid": "Enter a valid email",
+      "email": "Email is required",
+      "unitType": "Select the apartment type you are interested in"
+    },
+    "seo": {
+      "title": "Contact and Appointment",
+      "desc": "Contact our sales office, schedule an appointment to visit our sample apartment immediately."
+    },
+    "hero": {
+      "overline": "Contact Us",
+      "title": "Sales",
+      "highlight": "Office",
+      "subtitle": "Consult with our sales experts to discover exclusive options tailored to you and experience luxury firsthand."
+    },
+    "form": {
+      "title": "Schedule an Appointment",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "unitLabel": "Interested Unit Type",
+      "unitSelect": "Select",
+      "unit1": "1+1 Residence",
+      "unit2": "2+1 Residence",
+      "unit3": "3+1 Residence",
+      "unit4": "4+1 Penthouse",
+      "unit5": "Commercial Unit / Store",
+      "message": "Your Message (optional)",
+      "sending": "Sending...",
+      "submit": "Send Appointment Request",
+      "kvkk": "Your information is protected under GDPR."
+    },
+    "info": {
+      "office": "Sales Office",
+      "phone": "Contact",
+      "email": "Email",
+      "hours": "Working Hours"
     }
   },
   "footer": {
@@ -195,6 +240,1005 @@
       "privacy": "Privacy Policy",
       "kvkk": "KVKK Text",
       "cookies": "Cookie Policy"
+    }
+  },
+  "about": {
+    "stats": {
+      "s1": "Residences",
+      "s2": "Commercial Units",
+      "s3": "Iconic Tower",
+      "s4": "Delivery Year"
+    },
+    "reasons": {
+      "r1": {
+        "title": "Prestigious Location"
+      },
+      "r2": {
+        "title": "Superior Architecture",
+        "desc": "An iconic silhouette designed to international standards, adding value to the city."
+      },
+      "r3": {
+        "title": "Luxury Features",
+        "desc": "Smart home infrastructure, 3.20m ceiling height, and premium materials."
+      }
+    },
+    "offers": {
+      "o1": "Valet and 24/7 Concierge",
+      "o2": "Panoramic city views",
+      "o3": "Luxury SPA and Fitness Club",
+      "o4": "Private guest parking",
+      "o5": "Premium stores and restaurants"
+    },
+    "timeline": {
+      "t1": {
+        "title": "Project Development",
+        "desc": "Architectural design and permitting processes completed."
+      },
+      "t2": {
+        "title": "Groundbreaking",
+        "desc": "Reinforced foundation works and groundbreaking ceremony."
+      },
+      "t3": {
+        "title": "Structural Construction",
+        "desc": "Rising of towers and beginning of facade cladding."
+      },
+      "t4": {
+        "title": "Delivery & Life",
+        "desc": "Key handovers and the start of the Luxera privilege."
+      }
+    },
+    "specs": {
+      "sp1": {
+        "title": "Project Area",
+        "value": "15,000 m²"
+      },
+      "sp2": {
+        "title": "Earthquake Safety",
+        "value": "C50 Concrete & Advanced Tech"
+      },
+      "sp3": {
+        "title": "Apartment Types",
+        "value": "1+1, 2+1, 3+1, 4+1"
+      },
+      "sp4": {
+        "title": "Commercial Area",
+        "value": "Open Mall with 87 Units"
+      }
+    },
+    "seo": {
+      "title": "About Us & Project Details"
+    },
+    "hero": {
+      "overline": "About the Project",
+      "title": "A New",
+      "highlight": "Vision"
+    },
+    "intro": {
+      "title1": "An Architectural Masterpiece",
+      "title2": "Defying the Ordinary",
+      "p2": "We are creating a fully equipped world with the freedom to reach everything you need within an elevator's distance, the opportunity to breathe in sky gardens, and commercial areas featuring international brands."
+    },
+    "why": {
+      "title1": "Why",
+      "title2": "Luxera Towers?",
+      "desc": "Experience the privileged state of peace with views over the clouds while maintaining your connection to city life."
+    },
+    "offersHeader": {
+      "title1": "What Does",
+      "title2": "Luxera Towers Offer You?"
+    },
+    "gardens": {
+      "subtitle": "Sky Gardens",
+      "desc": "Multi-level green terraces placed between the towers offer a living breathing space in harmony with nature in the middle of the city. Landscaped social platforms and relaxation areas are a luxurious extension of your home."
+    },
+    "timelineHeader": {
+      "title": "Project Journey",
+      "desc": "The planned development schedule of perfection from foundation to delivery."
+    },
+    "specsHeader": "Technical Details",
+    "testimonials": {
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Be a Part of This Story",
+      "primary": "Contact Us",
+      "secondary": "Explore Residences"
+    }
+  },
+  "commercial": {
+    "steps": {
+      "s1": {
+        "title": "Location Analysis",
+        "desc": "We determine the most accurate unit for your brand based on visibility, foot traffic, and neighborhood brand synergy."
+      },
+      "s2": {
+        "title": "Offer & Contract",
+        "desc": "Lease conditions, delivery standards, and processes are transparently bound to a contract."
+      },
+      "s3": {
+        "title": "Handover",
+        "desc": "Your unit is delivered with technical infrastructure ready for store setup."
+      },
+      "s4": {
+        "title": "Opening & Management",
+        "desc": "We are by your side with post-opening promotion, lease tracking, and operational support."
+      }
+    },
+    "units": {
+      "u1": {
+        "type": "High Street Store",
+        "floor": "Ground Floor",
+        "ideal": "Retail & Brand Store"
+      },
+      "u2": {
+        "type": "Mall Unit",
+        "floor": "1st - 2nd Floor",
+        "ideal": "Fashion, Tech, Services"
+      },
+      "u3": {
+        "type": "Cafe & Restaurant",
+        "floor": "Ground / Terrace",
+        "ideal": "Food & Beverage, Lifestyle"
+      },
+      "u4": {
+        "type": "Office / Plaza",
+        "floor": "Upper Floors",
+        "ideal": "Corporate & Freelance"
+      }
+    },
+    "roi": {
+      "r1": {
+        "stat": "High",
+        "label": "Value Appreciation Potential",
+        "desc": "Continuously rising regional value with metro and highway connections."
+      },
+      "r2": {
+        "stat": "Strong",
+        "label": "Rental Yield (ROI)",
+        "desc": "Stable rental income with a mixed-use concept and high foot traffic."
+      },
+      "r3": {
+        "stat": "Maximum",
+        "label": "Visitor Capacity",
+        "desc": "The meeting point for residence inhabitants and local residents."
+      }
+    },
+    "hero": {
+      "overline": "Commercial Opportunities",
+      "title": "Commercial",
+      "highlight": "Units"
+    },
+    "intro": {
+      "title": "The New Heart of Commerce",
+      "desc": "Luxera Towers Mall is becoming the meeting point for both the local community and project residents with its exclusive stores, wide walking areas, and high foot traffic potential.",
+      "f1": "Exclusive Stores and Shops",
+      "f2": {
+        "pre": "Daily",
+        "post": "Visitor Capacity"
+      },
+      "f3": "High Street Visibility (High Signage Value)",
+      "btn": "Review Commercial Plans"
+    },
+    "table": {
+      "overline": "Options",
+      "title": "Commercial Unit Types",
+      "h1": "Unit Type",
+      "h2": "Area",
+      "h3": "Location",
+      "h4": "Usage"
+    },
+    "roiSection": {
+      "overline": "Why Luxera Towers?",
+      "title": "Return on Investment"
+    },
+    "process": {
+      "overline": "How Does It Work?",
+      "title": "Leasing Process"
+    },
+    "testimonials": {
+      "title": "What Our Tenants Say?",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Right Brand-Mix, Right Location",
+      "desc": "A balanced brand composition extending from retail to gastronomy, technology to services; planned to maximize the visibility and commercial potential of each unit. Let's determine the most suitable location for your brand together.",
+      "btn": "Get a Commercial Offer"
+    }
+  },
+  "corporate": {
+    "hero": {
+      "overline": "Corporate",
+      "title": "About Us",
+      "subtitle": "Experience from the past, vision building the future."
+    },
+    "vision": {
+      "title": "Our Vision and Values"
+    },
+    "milestones": {
+      "overline": "Our Journey",
+      "title": "Milestones"
+    },
+    "sustain": {
+      "overline": "Responsibility",
+      "title": "Sustainability & Certificates",
+      "subtitle": "An understanding of life that is respectful to the future, environmentally conscious, and empowered by technology."
+    },
+    "board": {
+      "title": "Message from the Board",
+      "quote": "We build not just buildings, but enduring monuments to be proudly left to future generations. Luxera Towers is the brightest reflection of this vision."
+    },
+    "testimonials": {
+      "title": "Those Who Trust Us",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Join the Luxera Family",
+      "primary": "Contact Us",
+      "secondary": "Explore the Project"
+    }
+  },
+  "dining": {
+    "seo": {
+      "title": "Gastronomy and Restaurants"
+    },
+    "hero": {
+      "overline": "Gastronomy Experience",
+      "title": "Dining &",
+      "highlight": "Cafes",
+      "subtitle": "Experience unforgettable moments with exclusive flavors from world cuisine, premium cafes, and signature cocktails."
+    },
+    "section": {
+      "title": "Culinary Stops",
+      "subtitle": "Gourmet restaurants and concept cafes appealing to diverse palates."
+    }
+  },
+  "events": {
+    "seo": {
+      "title": "Events",
+      "desc": "Luxera Towers social life calendar, music recitals, book days, and the latest news."
+    },
+    "hero": {
+      "overline": "Agenda & Media",
+      "title2": "Events",
+      "desc": "The most up-to-date developments, special campaigns, and custom social event calendar in the Luxera Towers ecosystem."
+    },
+    "cta": {
+      "title": "Stay Informed About Events",
+      "primary": "Contact Us"
+    }
+  },
+  "faq": {
+    "hero": {
+      "overline": "All Details",
+      "title1": "Frequently Asked",
+      "title2": "Questions",
+      "desc": "We have compiled the most frequently asked details about Luxera Towers into categories so you can make your investment and lifestyle decisions with confidence."
+    },
+    "cta": {
+      "title": "Your question not listed?",
+      "desc": "To get more detailed information about the project, visit our sample apartment, or create custom payment plans, please contact our expert sales consultants immediately.",
+      "btn": "Consult an Expert"
+    }
+  },
+  "gallery": {
+    "cat": {
+      "exterior": "Exterior",
+      "interior": "Interior",
+      "amenity": "Amenities",
+      "plans": "Floor Plans",
+      "all": "All"
+    },
+    "img": {
+      "ex1": "General View",
+      "ex2": "Tower Close-up",
+      "ex3": "Landscape and Life",
+      "ex4": "Night View",
+      "ex5": "Commercial Units",
+      "in1": "Living Room Concept",
+      "in2": "Bedroom",
+      "in3": "Kitchen Design",
+      "in4": "Bathroom Detail",
+      "in5": "Dressing Room",
+      "am1": "Indoor Swimming Pool",
+      "am2": "Lounge Area",
+      "am3": "Fitness & SPA",
+      "am4": "Meeting and Workspace",
+      "pl1": "1+1 Type A1",
+      "pl2": "2+1 Type B1",
+      "pl3": "3+1 Type C1",
+      "pl4": "4+1 Penthouse"
+    },
+    "seo": {
+      "title": "Gallery and Visuals"
+    },
+    "title": "Gallery",
+    "desc": "Examine the architectural details, interior designs, and social areas of the project.",
+    "stats": {
+      "s1": "Visuals & Renders",
+      "s2": "Categories",
+      "s3": "Apartment Types",
+      "s4": "Visual Quality"
+    },
+    "testimonials": {
+      "title": "What Do Viewers Say?",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "See the Project On-Site",
+      "desc": "Schedule an appointment with our sales office to experience the spaces you admire in the visuals in our sample apartment.",
+      "primary": "Book an Appointment",
+      "secondary": "Virtual Tour"
+    }
+  },
+  "guide": {
+    "items": {
+      "shopping": {
+        "title": "Shopping & Entertainment",
+        "p1": "Mall of Istanbul (5 Min)",
+        "p2": "212 Outlet Mall (2 Min)",
+        "p3": "Starcity Outlet (10 Min)",
+        "p4": "Gunesli Park Mall (4 Min)"
+      },
+      "health": {
+        "title": "Health Centers",
+        "p1": "Cam and Sakura City Hospital (12 Min)",
+        "p2": "Medipol Mega University Hospital (8 Min)",
+        "p3": "Acibadem Halkali (10 Min)",
+        "p4": "BHT Clinic Tema (15 Min)"
+      },
+      "edu": {
+        "title": "Education & Universities",
+        "desc": "The best educational institutions, private schools, and university campuses for your children are located around the project.",
+        "p1": "Kultur University (10 Min)",
+        "p2": "Altinbas University (8 Min)",
+        "p3": "Arel University (12 Min)",
+        "p4": "Bilfen College (5 Min)"
+      },
+      "social": {
+        "title": "Social Life",
+        "p1": "ArenaPark (10 Min)",
+        "p2": "Gourmet Restaurants Valley",
+        "p3": "Culture and Art Centers"
+      }
+    },
+    "distances": {
+      "m9": {
+        "title": "M9 Metro Station",
+        "time": "1 Min",
+        "type": "Walking"
+      },
+      "tem": {
+        "title": "E-5 and TEM Highway",
+        "time": "2 Min",
+        "type": "Car"
+      },
+      "airport": {
+        "title": "Istanbul Airport",
+        "time": "25 Min",
+        "type": "Car"
+      },
+      "marmara": {
+        "title": "Northern Marmara Highway",
+        "time": "5 Min",
+        "type": "Car"
+      }
+    },
+    "hero": {
+      "overline": "Environment Analysis",
+      "title": "Life",
+      "highlight": "Guide"
+    },
+    "stats": {
+      "min": " min",
+      "s1": "Walk to Metro",
+      "s2": "Mall & Shopping",
+      "s3": "Health Campus",
+      "s4": "Airport"
+    },
+    "testimonials": {
+      "title": "Locals",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Discover the Area Closer",
+      "desc": "You can review the project's PDF catalog for all location advantages, transportation plans, and a detailed regional map.",
+      "button": "Download Guide as PDF"
+    }
+  },
+  "investment": {
+    "seo": {
+      "title": "Investment and Value Appreciation"
+    },
+    "hero": {
+      "overline": "Profitable Opportunities",
+      "title": "Add Value to",
+      "highlight": "Your Future"
+    },
+    "intro": {
+      "title": "The New Maslak: Basin Ekspres"
+    },
+    "stats": {
+      "title": "Why Luxera Towers?",
+      "s1": {
+        "title": "Regional Value Appreciation",
+        "desc": "Continuously multiplying real estate value due to completed infrastructure projects and intense demand for the region."
+      },
+      "s2": {
+        "title": "Targeted Amortization",
+        "desc": "Return on investment rate significantly below the Turkish average due to the synergy of commercial areas, mall, and residence mixed-use concept.",
+        "suffix": " Years"
+      },
+      "s3": {
+        "title": "Citizenship Threshold",
+        "desc": "Full compliance with the Turkish Citizenship by Investment program for foreign investors with a transparent legal process guarantee."
+      }
+    },
+    "adv": {
+      "title": "Strategic Decision Point",
+      "a1": {
+        "title": "Power of Mixed-Use Concept"
+      },
+      "a2": {
+        "title": "Transportation Network Integration"
+      },
+      "a3": {
+        "title": "International Brand Assurance",
+        "desc": "The reliability of the Luxera brand in the international arena, the project's high material standards, and on-time delivery guarantee provide a peaceful investment process by minimizing risks."
+      },
+      "a4": {
+        "title": "High Rental Yield",
+        "desc": "Due to intense demand from plaza employees, airline personnel, and expat managers in the region, the vacancy rate is at a minimum while the foreign currency-based rental income potential is maximized."
+      }
+    },
+    "testimonials": {
+      "title": "What Do Our Investors Say?",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Professional Investment Consultancy",
+      "desc": "Every investor's profile and expectation is different. Our sales team is waiting to create the most suitable unit options and personalized payment plans for your budget, citizenship goals, and maturity plans.",
+      "btn": "Get an Investment Presentation"
+    }
+  },
+  "legal": {
+    "cookies": {
+      "overline": "Legal",
+      "title": "Cookie",
+      "highlight": "Policy",
+      "subtitle": "Information about cookies used on our website",
+      "p1": "As the Luxera Towers website, we use cookies to offer our visitors a better user experience, analyze site usage, and present personalized content.",
+      "h1": "What is a Cookie?",
+      "p2": "Cookies are small text files stored on your device or network server via your browser by the websites you visit.",
+      "h2": "Which Cookies Do We Use?",
+      "l1": {
+        "strong": "Strictly Necessary Cookies:",
+        "text": "These are cookies absolutely necessary for the website to function properly and perform basic functions."
+      },
+      "l2": {
+        "strong": "Performance and Analytics Cookies:",
+        "text": "These are cookies that help us analyze how visitors use our website and improve site performance (e.g., Google Analytics)."
+      },
+      "l3": {
+        "strong": "Marketing Cookies:",
+        "text": "These are cookies used to present advertisements and campaigns tailored to your interests."
+      },
+      "h3": "Cookie Management",
+      "p3": "You can customize your cookie preferences by changing your browser settings. We would like to remind you that if you disable cookies, some features of our website may not function properly."
+    },
+    "kvkk": {
+      "overline": "Legal",
+      "title": "GDPR",
+      "subtitle": "Clarification Text under the Personal Data Protection Law",
+      "h1": "1. Purpose of Processing Personal Data",
+      "p2": "Your collected personal data is processed by our company for the purposes of sales and marketing of our real estate projects, creating special campaigns for you, conducting customer satisfaction research, and carrying out communication activities.",
+      "h2": "2. To Whom and For What Purpose Processed Personal Data Can Be Transferred",
+      "h3": "3. Rights of the Personal Data Owner"
+    },
+    "privacy": {
+      "overline": "Legal",
+      "title": "Privacy",
+      "subtitle": "Privacy Policy and Terms of Use",
+      "p1": "This privacy policy explains how personal information of users visiting the Luxera Towers website is collected, used, and protected. By using our site, you are deemed to have accepted this policy.",
+      "h1": "Information Collection and Use",
+      "p2": "Information such as your name, surname, email, and phone number that you provide when filling out forms on our site (contact form, e-newsletter registration, etc.) is used solely to respond to you, inform you about our campaigns, and improve our service quality.",
+      "h2": "Information Security",
+      "p3": "All personal data you share with us is stored on secure servers and is never shared with third parties or institutions except for legal obligations. Industry-standard security measures are taken for your data security."
+    }
+  },
+  "life": {
+    "features": {
+      "f1": {
+        "title": "87 Luxury Stores",
+        "desc": "World-famous brands, prestigious designer boutiques, and exclusive retail stores are waiting for you as an extension of your personal wardrobe, just an elevator ride away."
+      },
+      "f2": {
+        "title": "Fitness & SPA",
+        "desc": "A fitness center equipped with the most modern international equipment for a healthy life and a luxury SPA area with thermal comfort where you can relieve the day's stress."
+      },
+      "f3": {
+        "title": "Gastronomy Culture",
+        "desc": "Turn every meal into an unforgettable experience with gourmet restaurants inspired by Michelin-star vision chefs and third-wave coffee shops."
+      },
+      "f4": {
+        "title": "24/7 VIP Service",
+        "desc": "Experience 5-star hotel comfort in the privacy of your own home with private valet, bellboy, and professional assistant (concierge) services."
+      }
+    },
+    "hero": {
+      "overline": "Social Life",
+      "title": "Right at the",
+      "highlight": "Center of Life"
+    },
+    "intro": {
+      "title": "An Architecture of Life Beyond Boundaries",
+      "p1": "Instead of keeping up with the rhythm of the city, shape the city's rhythm around yourself. Luxera Towers is not just a residential area; it's a massive, self-sustaining ecosystem where architecture, nature, and commercial dynamism dance in perfect harmony."
+    },
+    "featuresSection": {
+      "title": "Privileged Life"
+    },
+    "gallery": {
+      "overline": "Gallery",
+      "title": "Social Living Areas",
+      "subtitle": "Every moment of life is privileged with pools, green terraces, and relaxation areas."
+    },
+    "testimonials": {
+      "title": "Through Our Residents' Eyes",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "See This Life Up Close",
+      "primary": "Book an Appointment",
+      "secondary": "Privileges"
+    }
+  },
+  "pageLocation": {
+    "seo": {
+      "title": "Central Location and Transportation"
+    },
+    "hero": {
+      "overline": "Location & Transport",
+      "title": "Unique",
+      "highlight": "Location"
+    },
+    "stats": {
+      "m": " m",
+      "s1": "Gunesli Metro",
+      "min": " min",
+      "s2": "Basin Ekspres",
+      "s3": "Istanbul Airport",
+      "s4": "E-5 / TEM Connection"
+    },
+    "value": {
+      "overline": "Regional Value",
+      "p2": "The location at the intersection of metro, metrobus, E-5, and TEM connections makes the region privileged for both living and investment.",
+      "salesOffice": "Sales Office",
+      "metroTitle": "200 Meters to Metro",
+      "metroDesc": "Gunesli Metro Station is within walking distance."
+    },
+    "cta": {
+      "title": "Experience the Location On-Site",
+      "primary": "Book an Appointment",
+      "secondary": "Life Guide"
+    },
+    "map": {
+      "getDirections": "Get Directions"
+    }
+  },
+  "media": {
+    "stats": {
+      "s1": "Press News",
+      "s2": "Different Publications",
+      "s3": "Total Reach",
+      "s4": "Positive Impact"
+    },
+    "hero": {
+      "overline": "Media",
+      "title": "In the",
+      "highlight": "Press"
+    },
+    "featured": "Featured",
+    "all": {
+      "overline": "Media",
+      "title": "All News"
+    },
+    "card": {
+      "read": "Read the News",
+      "soon": "Soon"
+    },
+    "kit": {
+      "title": "Press Kit",
+      "desc": "Download our press kit containing project visuals, logos, and masthead information. You can contact our press team for your interview and collaboration requests.",
+      "btn": "Download Press Kit"
+    },
+    "cta": {
+      "title": "Collaboration & Interviews",
+      "desc": "Contact our corporate communications team for media collaborations, interview requests, and press invitations.",
+      "primary": "Contact Us"
+    }
+  },
+  "notFound": {
+    "title": "Looks like you got lost in the sky...",
+    "desc": "We cannot find the page you are looking for. It might have been moved, deleted, or is temporarily unavailable.",
+    "home": "Return to Home",
+    "residences": "Residences",
+    "contact": "Contact"
+  },
+  "offices": {
+    "seo": {
+      "title": "A+ Offices and Corporations"
+    },
+    "hero": {
+      "overline": "Corporate Life",
+      "title": "A+",
+      "highlight": "Offices",
+      "subtitle": "Next-generation management centers equipped with smart building technologies for companies with a global vision."
+    },
+    "section": {
+      "title": "Center of the Business World",
+      "subtitle": "We host valuable brands that are pioneers in their sectors."
+    }
+  },
+  "privileges": {
+    "back": "All Privileges",
+    "concierge": {
+      "overline": "Luxera Privileges",
+      "f1": {
+        "title": "Travel & Transfer",
+        "desc": "VIP airport transfers, private jet and helicopter charter, hotel reservations."
+      },
+      "f2": {
+        "title": "Event Management",
+        "desc": "VIP ticket procurement and box reservations for concerts, theater, and special events."
+      },
+      "f3": {
+        "title": "Private Assistance",
+        "desc": "Restaurant reservations, flower and gift delivery, dry cleaning organization."
+      },
+      "f4": {
+        "title": "24/7 Communication",
+        "desc": "Instant service with a single phone call or via our mobile app."
+      },
+      "extras": {
+        "title": "A Personalized Life Assistant",
+        "p1": "Our concierge team takes care of the small but time-consuming details of daily life on your behalf. So you can focus only on what's important.",
+        "p2": "From a business dinner reservation to planning an international trip, from a special gift delivered to your home to last-minute ticket procurement; a single request is enough.",
+        "b1": "Restaurant, hotel, and event reservations",
+        "b2": "VIP airport transfer and travel organization",
+        "b3": "Dry cleaning, flower, and gift delivery",
+        "b4": "24/7 request management via mobile app"
+      },
+      "stats": {
+        "s1": "Uninterrupted Access",
+        "min": " min",
+        "s2": "Average Response",
+        "s3": "Personalized",
+        "s4": "Service Standard"
+      },
+      "cta": {
+        "title": "Get Your Time Back",
+        "desc": "Contact us to get closely acquainted with the Concierge privilege and Luxera Towers lifestyle."
+      }
+    },
+    "fitness": {
+      "overline": "Luxera Privileges",
+      "desc": "Show your body and soul the care they deserve. In the center of the city but far from its stress; our gym equipped with the latest technology and our luxury SPA center to help you purify are waiting for you.",
+      "f1": {
+        "title": "Fully Equipped Gym"
+      },
+      "f2": {
+        "title": "Indoor Swimming Pool",
+        "desc": "Four-season heated and spacious indoor swimming pool."
+      },
+      "f3": {
+        "title": "Premium SPA Center",
+        "desc": "Turkish bath, sauna, steam room, and personalized massage therapies."
+      },
+      "f4": {
+        "title": "Private Trainer Support",
+        "desc": "One-on-one (Personal Trainer) fitness consultancy and pilates studios."
+      },
+      "extras": {
+        "title": "An Oasis for Your Body and Soul",
+        "p1": "Whether to start the day energetically or to relieve the day's stress; whatever your need, everything you are looking for is just a few floors below your home.",
+        "p2": "After the heated indoor pool, Turkish bath, sauna, and steam room; experience total purification with personalized massage therapies.",
+        "b1": "Next-generation cardio and weight stations",
+        "b2": "Four-season heated indoor pool",
+        "b3": "Turkish bath, sauna, and steam room",
+        "b4": "One-on-one personal trainer and pilates studio"
+      },
+      "stats": {
+        "m2": " m²",
+        "s1": "Wellness Area",
+        "s2": "Fitness Access",
+        "s3": "Season Pool",
+        "s4": "SPA Standard"
+      },
+      "cta": {
+        "title": "Healthy Living Under Your Door",
+        "desc": "Book an appointment to experience the Fitness & SPA privilege and Luxera Towers lifestyle on-site."
+      }
+    },
+    "housekeeping": {
+      "overline": "Luxera Privileges",
+      "desc": "The perfection of your home is the most important detail of luxury living. We crown residence comfort with a cleaning and maintenance service at 5-star hotel standards, keeping your living spaces spotless at all times.",
+      "f1": {
+        "title": "Daily / Weekly Cleaning",
+        "desc": "Detailed general house cleaning and arrangement planned according to your request."
+      },
+      "f2": {
+        "title": "Dry Cleaning & Ironing",
+        "desc": "Door-to-door dry cleaning service for your clothes and home textile products."
+      },
+      "f3": {
+        "title": "Deep Hygiene",
+        "desc": "Periodically applied disinfection, sofa washing, and carpet care."
+      },
+      "f4": {
+        "title": "Plant and Terrace Care",
+        "desc": "Professional care of your terrace, winter garden, and living room plants."
+      },
+      "extras": {
+        "title": "A Home Always Ready to Host Guests",
+        "p1": "The order and hygiene of your home are the quietest but most decisive detail of luxury living. Our housekeeping team keeps your living spaces at 5-star hotel meticulousness.",
+        "p2": "From daily cleaning to dry cleaning, from terrace plant care to deep hygiene; you just enjoy it, leave the rest to us.",
+        "b1": "Planned daily or weekly general cleaning",
+        "b2": "Door-to-door dry cleaning and ironing",
+        "b3": "Periodic disinfection, sofa, and carpet care",
+        "b4": "Maintenance of terrace, winter garden, and living room plants"
+      },
+      "stats": {
+        "s1": "Hotel Standard",
+        "s2": "Request Management",
+        "s3": "Personalized Plan",
+        "s4": "Service Item"
+      },
+      "cta": {
+        "title": "Pristine Living Spaces",
+        "desc": "Contact us to get closely acquainted with the Housekeeping privilege and Luxera Towers lifestyle."
+      }
+    },
+    "lounge": {
+      "overline": "Luxera Privileges",
+      "desc": "Exclusive lounge and club areas designed for you to host your guests, hold business meetings, or just enjoy a quiet coffee.",
+      "f1": {
+        "title": "Business Lounge",
+        "desc": "Meeting rooms, high-speed internet, and quiet working areas equipped with office amenities."
+      },
+      "f2": {
+        "title": "Cigar & Wine Club",
+        "desc": "An elegant space decorated with special climate cabinets and comfortable leather armchairs."
+      },
+      "f3": {
+        "title": "Private Dining Room",
+        "desc": "Private dining rooms supported by chef service where you can host your special guests."
+      },
+      "f4": {
+        "title": "Game & Cinema Room",
+        "desc": "Private cinema hall and entertainment areas equipped with latest tech game consoles."
+      },
+      "extras": {
+        "title": "Your New Social Networking Area",
+        "p1": "Luxera Club Lounge was designed as an exclusive platform that brings together an elite community and meets your business and entertainment needs.",
+        "p2": "Whether closing an important business deal, hosting a crowded dinner, or watching a movie with your family; all possibilities are reserved for you.",
+        "b1": "Fully equipped meeting and business lounge",
+        "b2": "Exclusive Cigar & Wine Club area",
+        "b3": "Private dining room with VIP chef service",
+        "b4": "Private cinema and high-tech game room"
+      },
+      "stats": {
+        "s1": "VIP Service",
+        "s2": "Lounge Area",
+        "s3": "High Speed",
+        "s4": "Reservation"
+      },
+      "cta": {
+        "title": "The Privilege of Being Exclusive",
+        "desc": "Book an appointment to experience the Lounge privilege and Luxera Towers lifestyle on-site."
+      }
+    },
+    "security": {
+      "overline": "Luxera Privileges",
+      "desc": "Your peace of mind is our priority. We offer a safe and peaceful living environment with smart building technologies, a 24/7 active security team, and multi-layered access control systems.",
+      "f1": {
+        "title": "24/7 Security Team",
+        "desc": "A professional and trained security team constantly monitoring the project site."
+      },
+      "f2": {
+        "title": "CCTV Camera System",
+        "desc": "Continuous monitoring of all common areas, parking lots, and environmental perimeters."
+      },
+      "f3": {
+        "title": "Smart Access Control",
+        "desc": "Card, fingerprint, or mobile app access systems at building entrances and elevators."
+      },
+      "f4": {
+        "title": "Fire & Emergency",
+        "desc": "Advanced fire detection, extinguishing systems, and emergency evacuation protocols."
+      },
+      "extras": {
+        "title": "Invisible Shield, Absolute Peace",
+        "p1": "Our security systems work seamlessly in the background without disturbing your comfort and privacy.",
+        "p2": "With our smart home infrastructure, you can manage the security of your home via your mobile phone, define temporary access codes for your guests, and track everything instantly.",
+        "b1": "Professional 24/7 active security team",
+        "b2": "Comprehensive CCTV monitoring and recording system",
+        "b3": "Multi-layered smart access control (Biometric/Card)",
+        "b4": "Mobile integrated guest and delivery tracking"
+      },
+      "stats": {
+        "s1": "Uninterrupted Security",
+        "s2": "Smart Home Integration",
+        "s3": "Camera Point",
+        "s4": "Access Control"
+      },
+      "cta": {
+        "title": "Live in Peace",
+        "desc": "Contact us to get closely acquainted with our Security privileges and the Luxera Towers lifestyle."
+      }
+    },
+    "valet": {
+      "overline": "Luxera Privileges",
+      "desc": "Say goodbye to parking stress. Our professional valet team meets your vehicle at the door and brings it safely to the lobby door when you leave.",
+      "f1": {
+        "title": "24/7 Valet Service",
+        "desc": "Uninterrupted vehicle reception and delivery service whenever you arrive or leave."
+      },
+      "f2": {
+        "title": "Mobile Request",
+        "desc": "Ability to request your vehicle in advance via the resident portal without waiting."
+      },
+      "f3": {
+        "title": "Guest Valet",
+        "desc": "Privileged valet service for your visitors."
+      },
+      "f4": {
+        "title": "Safe Parking",
+        "desc": "Your vehicle is safely parked in the closed parking lot reserved for you."
+      },
+      "extras": {
+        "title": "Time is Your Most Valuable Asset",
+        "p1": "You don't need to waste time looking for a parking spot at Luxera Towers. Our valet team meets you at the main entrance and parks your vehicle safely.",
+        "p2": "When you are leaving, you can call your vehicle to the door with a single click via our mobile application and get directly on the road without waiting.",
+        "b1": "Uninterrupted 24/7 professional valet service",
+        "b2": "Quick vehicle call via mobile app",
+        "b3": "Safe indoor parking and VIP guest hosting",
+        "b4": "Electric vehicle charging coordination"
+      },
+      "stats": {
+        "s1": "Uninterrupted Service",
+        "s2": "App Integration",
+        "min": " min",
+        "s3": "Preparation Time",
+        "s4": "Safe Area"
+      },
+      "cta": {
+        "title": "Comfort Starting at the Door",
+        "desc": "Book an appointment to experience the Valet privilege and Luxera Towers lifestyle on-site."
+      }
+    }
+  },
+  "residences": {
+    "hero": {
+      "overline": "Luxury Residences",
+      "title": "Peak of",
+      "highlight": "Comfort"
+    },
+    "intro": {
+      "title": "Architecture Redefining Living Standards"
+    },
+    "gallery": {
+      "overline": "Gallery",
+      "title": "Living Spaces"
+    },
+    "floorPlans": {
+      "overline": "Options",
+      "title": "Floor Plans"
+    },
+    "features": {
+      "overline": "Features",
+      "title": "Details That Make a Difference",
+      "f1": {
+        "title": "Smart Home Technologies",
+        "desc": "Control lighting, climate, and security with a single touch from your tablet or smartphone."
+      },
+      "f2": {
+        "title": "Premium Materials",
+        "desc": "First-class natural stone, imported parquet, and custom-designed kitchen cabinets."
+      },
+      "f3": {
+        "title": "Panoramic Views",
+        "desc": "Floor-to-ceiling windows, 3.20m ceiling height, and uninterrupted city views."
+      },
+      "f4": {
+        "title": "Spacious Balconies & Terraces",
+        "desc": "Large balconies that breathe with the city and integrate with sky gardens."
+      }
+    },
+    "testimonials": {
+      "title": "Our Residents",
+      "overline": "Testimonials"
+    },
+    "cta": {
+      "title": "Find Your Dream Home",
+      "primary": "Review Floor Plans",
+      "secondary": "Virtual Tour"
+    }
+  },
+  "portal": {
+    "login": {
+      "title": "Resident Portal",
+      "subtitle": "Welcome, please login.",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "name@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Login",
+      "forgot": "Forgot Password?",
+      "back": "Back to Homepage"
+    },
+    "nav": {
+      "logout": "Logout",
+      "profile": "My Profile",
+      "settings": "Settings"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Services and Facilities"
+    },
+    "hero": {
+      "overline": "Privileged World",
+      "title": "Exclusive",
+      "highlight": "Services",
+      "subtitle": "Discover 5-star hotel comfort and services exclusively designed for you."
+    },
+    "section": {
+      "title": "All Services",
+      "subtitle": "Designed to simplify your life and maximize your comfort."
+    }
+  },
+  "stores": {
+    "seo": {
+      "title": "Stores and Brands"
+    },
+    "hero": {
+      "overline": "Shopping Experience",
+      "title": "Premium",
+      "highlight": "Brands",
+      "subtitle": "World-famous brands and boutique stores are just an elevator ride away."
+    },
+    "section": {
+      "title": "Store Directory",
+      "subtitle": "A diverse shopping mix from fashion to technology, cosmetics to home decoration."
+    }
+  },
+  "videos": {
+    "seo": {
+      "title": "Videos and Promotional Films"
+    },
+    "hero": {
+      "overline": "Visual Media",
+      "title": "Promotional",
+      "highlight": "Films",
+      "subtitle": "Discover the architectural details, social areas, and living spaces of Luxera Towers in motion."
+    },
+    "section": {
+      "title": "Project Videos",
+      "subtitle": "Get a closer look at the privileged world of our project."
+    }
+  },
+  "virtualTour": {
+    "seo": {
+      "title": "360° Virtual Tour"
+    },
+    "hero": {
+      "overline": "Digital Experience",
+      "title": "Virtual",
+      "highlight": "Tour",
+      "subtitle": "Walk around our sample apartment and project social areas from where you sit with a 360-degree panoramic tour."
+    },
+    "section": {
+      "title": "Start the Tour",
+      "subtitle": "Select a space to interactively explore."
     }
   }
 }
