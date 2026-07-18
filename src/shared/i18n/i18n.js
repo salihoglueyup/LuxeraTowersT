@@ -19,8 +19,9 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'ar', // Set initial language to ar
-    fallbackLng: 'ar', // Default language
+    lng: 'tr', // Set initial language to Turkish
+    fallbackLng: 'tr', // Default language
+    supportedLngs: ['tr', 'en', 'ar', 'ru'],
     debug: false,
     
     interpolation: {
@@ -28,7 +29,7 @@ i18n
     },
     
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage', 'querystring', 'cookie'],
       caches: ['localStorage'],
     }
   });
