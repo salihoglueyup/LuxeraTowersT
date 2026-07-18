@@ -5,7 +5,8 @@
     "discover": "Discover Project",
     "contact": "Contact Us",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "discover_short": "Discover"
   },
   "nav": {
     "home": "Home",

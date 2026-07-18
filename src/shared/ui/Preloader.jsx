@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Preloader = ({ onComplete }) => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -44,7 +46,7 @@ const Preloader = ({ onComplete }) => {
               transition={{ delay: 1, duration: 1 }}
               className="text-luxera-gold uppercase tracking-[0.5em] mt-6 text-sm font-light"
             >
-              Yükleniyor
+              {t('common.loading', 'Yükleniyor')}
             </motion.p>
           </motion.div>
         </motion.div>
